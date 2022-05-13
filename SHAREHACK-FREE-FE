@@ -1,6 +1,14 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Brineeee/Kavo-GT/main/lua"))()
 
-local Window = Library.CreateLib("Light Step X - Blox Fruit [BETA]", "BloodTheme")
+local GreenTheme = {
+      SchemeColor = Color3.fromRGB(120, 200, 0),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(0, 0, 0)
+} 
+
+local Window = Library.CreateLib("Light Step X - Blox Fruit [BETA]", "GreenTheme")
 
 local Tab1 = Window:NewTab("\\-Home-//")
 local Tab1Section = Tab1:NewSection("\\-Farm [You must be in list of mobs]-//")
@@ -20,7 +28,7 @@ getgenv().SkillX = false
 getgenv().SKillF = false
 
 getgenv().CurrentWeapon = "Combat"
-getgenv().AutoWeapon = false
+getgenv().AutoWeapon = false 
 
 getgenv().FarmStopped = false
 getgenv().IsQuestStarted = false
