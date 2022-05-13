@@ -8,7 +8,7 @@ local GreenTheme = {
       ElementColor = Color3.fromRGB(0, 0, 0)
 } 
 
-local Window = Library.CreateLib("Light Step X - Blox Fruit [BETA]", "GreenTheme")
+local Window = Library.CreateLib("Green X Hub - Blox Fruit [BETA]", "GreenTheme")
 
 local Tab1 = Window:NewTab("\\-Home-//")
 local Tab1Section = Tab1:NewSection("\\-Farm [You must be in list of mobs]-//")
